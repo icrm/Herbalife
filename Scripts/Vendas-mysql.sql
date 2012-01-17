@@ -38,6 +38,10 @@ CREATE  TABLE IF NOT EXISTS HL_PRODUTO_STATUS (
   PRIMARY KEY (CD_STATUS)
 );
 
+INSERT INTO HL_PRODUTO_STATUS ( NM_STATUS, DS_STATUS ) VALUES
+( 'Ativo', 'Produto Ativo' ),
+( 'Inativo', 'Produto Inativo' );
+
 /*************************************************************************************************************************************************************************************************************/
 
 DROP TABLE IF EXISTS HL_PRODUTO ;
