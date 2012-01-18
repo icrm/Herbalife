@@ -1,0 +1,5 @@
+- Criar flag em módulos e páginas, para verificar se os mesmos devem ou não serem exebidos no menu.
+- Excluir da exibição do menu os itens que não estiverem marcados para não aparecer.
+- Excluir da exibição do menu as páginas que estiverem inativas.
+- Bloquear no login o acesso aos usuários que estiverem inativos.
+- 
